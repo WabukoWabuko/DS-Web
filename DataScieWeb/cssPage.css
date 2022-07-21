@@ -1,0 +1,321 @@
+
+/*---------- until visit us to know more------*/
+#back_to_top{
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+#back_to_top:hover{
+	border: 1px solid #f44336;
+	background: lightpink;
+	transition: 1s;
+}
+
+#back_to_top_all{
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#holds_back_to_top{
+	text-align: center;
+}
+
+
+#title{
+	padding-top: 50px;
+	background-image: url(images/images2.JPEG);
+	border-radius: 30px;
+}
+
+#bg_image{
+	padding-top: 5px;
+	background-position: center;
+	position: relative;
+	background-image: url(/images/images2.JPEG);	
+}
+
+#Data_Science{
+	font-size: 70px;
+	font-family: New Times Roman;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-decoration: underline;
+	text-align: center;
+	color: #fff;
+}
+
+#visit_btn{
+	text-align: center;
+	padding-bottom: 20px;
+}
+#visit_button{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+#visit_button:hover{
+	border: 1px solid #f44336 ;
+	background: #f44336;
+	transition: 1s;
+}
+
+#what_is_astonishing{
+	font-size: 27px;
+	font-family: sans-serif;
+	text-align: left;
+	padding-left: 60px;
+	background-image: url(images/images3.JPEG);
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 50px;
+}
+
+#highlight_style{
+	padding-left: 70px;
+	list-style-type: star;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: serif;
+	background-color: none;
+	border-radius: 30px;
+
+}
+
+#Unanswered{
+	padding-left: 40px;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: serif;
+	text-decoration: underline;
+}
+
+#all{
+	float: middle;
+	background-color: transparent;
+	border-style: solid;
+	border-color: skyblue;
+	text-align: left;
+	border-radius: 45px;
+}
+
+#passage{
+	padding-top: 30px;
+	font-family: sans-serif;
+	font-size: 19px;
+	border-style: solid;
+	border-color: skyblue;
+	border-radius: 45px;
+	background-color: lightpink;
+}
+
+#an_image{
+	height: 250px;
+	padding-left: 20px;
+	padding-top: 30px;
+	float: left;
+	text-align: right;
+	border-radius: 30px;
+}
+
+#move{
+	scroll-behavior: smooth;
+	font-size: 20px;
+}
+
+#unordered_list{
+	text-decoration: none;
+}
+#menu{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+	justify-content: space-between;
+	align-items: center;
+	float: right;
+	flex: 1;
+	display: flex;
+	color: black;
+	padding-bottom: 10px;
+}
+
+#links{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 30px;
+	padding: 15px 10px 15px 10px;	
+	color: white;
+	padding-bottom: 10px
+}
+#links::after{
+	content: '';
+	width: 0%;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	height: 2px;
+	transition: 0.7s;
+	list-style: none;	
+}
+#links:hover::after{
+	width: 100%;
+}
+
+/*------- role of data sci----*/
+#row{
+	text-align: center;
+	padding-top: 100px;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between
+}
+#flex{
+	text-align: center; 
+	justify-content: space-between;
+	flex: 1;
+	flex-basis: 31%;
+	background-color: ;
+	border: solid;
+	border-color: #fff;
+	border-radius: 30px;
+	font-weight: normal;
+	transition: 0.5s;
+}
+#flex:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2.0)
+}
+
+#role{
+	display: flex;
+}
+
+/*-------- Contact Us Page */
+#bg_image1{
+	background-image: url(images/destroy.JPG);
+}
+
+#contact_beauty{
+	color: #fff;
+	font-size: 50px;
+	font-family: New Times Roman;
+	border: solid;
+	border-color: transparent;
+	border-radius: 30px;
+	border-width: 1px;
+	text-align: center;
+}
+
+#Data_Science1{
+	padding-top: 50px;
+	font-size: 70px;
+	font-family: New Times Roman;
+	text-decoration: underline;
+	color: #fff;
+}
+
+#title1{
+	background-image: url(images/destroy.JPG);
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+#enter_info{
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;	
+	border: solid;
+	border-radius: 30px;
+	color: #fff;
+	background-image: url(images/green.JPG);
+}
+
+#email_link{
+	color: #00f;
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
+	background-color: lightpink;
+	border: solid black;
+	border-width: 1px;
+	border-radius: 50px;
+	text-align: center;
+}
+#holding_email_link{
+	text-align: center;
+}
+/*------- About Us -----*/
+#blockquote{
+	text-align: center;
+	border: solid;
+	border-width: 1px black;
+	border-radius: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#has_blockquote{
+		text-align: center;
+}
+
+/*------ Visit Us To Know More. --------*/
+.visit_class {
+	font-family: New Times Roman, sans-serif, sans, serif;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-image: url(images/IMG-20220303-WA0011.JPG);
+}
+
+.para {
+	font-size: 21px;
+	font-family: sans-serif;
+	word-spacing: 1.5px;
+	border-radius: 30px;
+	transition: 1s;
+}
+.para:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 3.0);
+}
+
+.edna {
+	display: inline-block;
+	justify-content: space-between;
+	display: flex;
+	border: ;
+	border-radius: 30px;
+	transition: 0.4s;
+}
+.edna:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1.0);
+}
+
+.edna_style {
+	display: flex;
+	font-size: 20px;
+	font-family: serif, sans-serif;
+	border-radius: 30px;
+	transition: 0.4s;
+}
+.edna_style:hover {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1.0);
+}
